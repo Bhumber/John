@@ -1,0 +1,113 @@
+/* ====================================================================== */
+@media (max-width: 1200px) {
+    .main__container { 
+        width: 1140px;
+    }
+}
+
+/* ====================================================================== */
+
+@media (max-width: 1199px) {
+    .main__container {
+        width: 960px;
+    }
+}
+
+/* ====================================================================== */
+
+@media (max-width: 991px) {
+    .main__container {
+        width: 720px;
+    }
+
+/* ============/ main__bottom /============ */    
+
+    .b__text h2, .b__text ul, .b__text p {
+        margin-top: 15px;
+    } 
+
+    .b__text h2, .b__text ul, .b__text p {
+        margin-top: 15px;
+    } 
+
+/* ============/ footer/============ */
+    footer {
+        min-height: 200px;
+    }
+
+}
+
+/* ====================================================================== */
+
+@media (max-width: 767px) {
+    .main__container { 
+        width: 540px;
+    }
+
+/* ============/ main__top /============ */
+    .main__top {
+        flex-direction: column;
+        
+    }
+
+    .m__c__text {
+        max-width: 100%;
+        order: 3;
+        text-align: center;
+    }
+
+    .button {
+        margin-bottom: 40px;
+    }
+
+/* ============/ main__middle /============ */
+    .m__m__bottom {
+        flex-direction: column;
+    }
+
+    .left {
+        margin: 0 0 20px 0;
+        padding: 10px;  
+    } 
+
+    .right {
+        margin: 0 0 20px 0;
+        padding: 10px; 
+    }
+    
+/* ============/ main__bottom /============ */
+    .m__b {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b__text {
+        margin-top: 20px;
+    }
+
+    .b__text h2, 
+    .b__text ul, 
+    .b__text p {
+        margin-top: 15px;
+    } 
+
+/* ============/ footer/============ */
+    footer {
+        min-height: 200px;
+    }
+}
+
+/* ====================================================================== */
+
+@media (max-width: 575px) {
+    .main__container {   
+        width: 540px;
+    }
+}
+
+/* ========================/ main /======================== */
+/* ============/ main__top /============ */
+
+/* ============/ main__middle /============ */
+
+/* ============/ main__bottom /============ */

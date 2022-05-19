@@ -1,0 +1,337 @@
+/* ========================/ Обнуление /======================== */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/* ========================/ Общее /======================== */
+/*--- Расположение и размеры ---*/
+html body {
+    font-family: 'Heebo';
+    display: flex;
+    justify-content: center;
+}
+
+.main__container {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--- Вид ---*/
+html body {
+    font-family: 'Heebo';
+}
+
+
+
+/* ========================/ header /======================== */
+/*--- Расположение и размеры ---*/
+.main__navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+}
+
+.main__navigation ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__navigation ul li {
+    padding-left: 35px;
+}
+
+
+/*--- Вид ---*/
+.main__navigation ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.main__navigation ul li a:hover {
+    font-weight: 700;
+    color: red;
+}
+
+/* ========================/ main /======================== */
+/*--- Расположение и размеры ---*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*--- Вид ---*/
+
+
+/* ============/ main__top /============ */
+/*--- Расположение и размеры ---*/
+.main__top {
+    
+    min-height: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.__top {
+    
+} 
+
+.m__c__text {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    justify-content: space-between;
+}
+
+.m__c__img {
+    flex-shrink: 1;
+}
+
+
+.m__c__text .button button {
+    margin-top: 40px;
+}
+
+/*--- Вид ---*/
+.m__c__text h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.m__c__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #21243D; 
+}
+
+.m__c__text .button button a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.m__c__text .button button {
+   
+    background: #FF6464;
+    border-radius: 2px;
+    height: 47px;
+    width: 208px;
+}
+
+
+/* ============/ main__middle /============ */
+/*--- Расположение и размеры ---*/
+.main__middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.m__m__top {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.m__m__bottom {
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+    min-height: 300px;
+    padding: 30px;
+    background-color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+    min-height: 300px;
+    padding: 30px ;
+    background-color: white;
+}
+
+/*--- Вид ---*/
+.m__m__top h3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.m__m__top a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+}
+
+.m__m__top a:hover {
+    color: #075262
+}
+
+.left h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.right h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+.left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.right p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+
+
+/* ============/ main__bottom /============ */
+/*--- Расположение и размеры ---*/
+.main__bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.m__b {
+    display: flex;
+    padding: 35px 0;
+    border-bottom: 1px solid #E0E0E0;
+    justify-content: space-between;
+}
+
+.b__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    align-items: flex-start;
+}
+
+.m__b div img {
+    align-items: flex-start;
+    margin-right: 40px;
+}
+
+.b__text ul {
+    display: flex;
+    align-items: baseline;
+}
+
+
+
+.num {
+    margin-right: 25px;
+}
+
+/*--- Вид ---*/
+.main__bottom h3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.b__text h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #0f1013;
+}
+
+.num {
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
+
+    font-weight: 900;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.b__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+   
+/* ========================/ footer /======================== */
+/*--- Расположение и размеры ---*/
+footer {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__img {
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+/*--- Вид ---*/
+.footer__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+/* ====================================================================== */
+
+

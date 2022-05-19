@@ -1,0 +1,165 @@
+/* ========================/ Обнуление /======================== */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  ul, ol, li {
+    list-style-type: none;
+  }
+
+/* ========================/ Общее /======================== */
+/*--- Расположение и размеры ---*/
+html body {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+    min-height: 1260px;
+    align-items: center;
+}
+
+/*--- Вид ---*/
+body {
+    font-family: 'Heebo';
+}
+
+
+  /* ========================/ header /======================== */
+/*--- Расположение и размеры ---*/
+.main__navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+}
+
+.main__navigation ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__navigation ul li {
+    padding-left: 35px;
+}
+
+
+/*--- Вид ---*/
+.main__navigation ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.main__navigation ul li a:hover {
+    font-weight: 700;
+    color: red;
+}
+
+/* ========================/ main /======================== */
+/*--- Расположение и размеры ---*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    min-height: 210px;
+    min-width: 690px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.two, .three, .four {
+    border-top: 1px solid #E0E0E0;
+}
+
+.four {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+h2 {
+
+}
+
+.p_top {
+    margin-top: 30px;
+}
+
+.p_bottom {
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+}
+
+.left {
+    
+}
+
+/*--- Вид ---*/
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.p_top {
+    
+}
+
+.p_bottom {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+/* ========================/ footer /======================== */
+/*--- Расположение и размеры ---*/
+footer {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__img {
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+/*--- Вид ---*/
+.footer__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
